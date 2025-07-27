@@ -1,0 +1,154 @@
+{
+  "categorias": [
+    {
+      "id": "destacados",
+      "nombre": "Productos Destacados",
+      "productos": [
+        {
+          "id": "p1",
+          "nombre": "Teclado 60% RGB",
+          "descripcion": "Teclado mecanico de 60% con luces RGB incorporadas",
+          "precio": 250000,
+          "imagen": "assets/imagenes/Teclado.jpg",
+          "stock": "En Stock"
+        },
+        {
+          "id": "p2",
+          "nombre": "Mouse Bengoo",
+          "descripcion": "Mouse ergonomico con rgb, capacidad de 500.000 clicks",
+          "precio": 80000,
+          "imagen": "assets/imagenes/Mouse.jpg",
+          "stock": "En Stock"
+        },
+        {
+          "id": "p3",
+          "nombre": "Audifonos Wireless",
+          "descripcion": "Audifonos con cancelación de ruido",
+          "precio": 50000,
+          "imagen": "assets/imagenes/Audifonos.jpg",
+          "stock": "En Stock"
+        }
+      ]
+    },
+    {
+      "id": "laptops",
+      "nombre": "Laptops",
+      "productos": [
+        {
+          "id": "p4",
+          "nombre": "Laptop Asus Vivobook",
+          "descripcion": "Procesador Intel i5, Capacidad SSD 512GB, Pantalla 1920px x 1080px",
+          "precio": 2250000,
+          "imagen": "assets/imagenes/Laptop-Asus-Laptops.png",
+          "stock": "CASI AGOTADO"
+        },
+        {
+          "id": "p5",
+          "nombre": "Notebook 15,6 HP",
+          "descripcion": "G9 Intel Celeron, 8GB Ram, 256GB SSD",
+          "precio": 810000,
+          "imagen": "assets/imagenes/laptop-hp-laptops.png",
+          "stock": "En Stock"
+        },
+        {
+          "id": "p6",
+          "nombre": "Lenovo V14 G3",
+          "descripcion": "Core i7, 16 Ram, SSD 512GB",
+          "precio": 2500000,
+          "imagen": "assets/imagenes/Lenovo-laptops.png",
+          "stock": "En Stock"
+        }
+      ]
+    },
+    {
+      "id": "smartphones",
+      "nombre": "Smartphones",
+      "productos": [
+        {
+          "id": "p7",
+          "nombre": "Xiaomi Redmi Note 14",
+          "descripcion": "6.67, 128GB, 6GB Ram, Cámara 108mpx",
+          "precio": 648000,
+          "imagen": "assets/imagenes/Xiaomi-redmi-smartphones.png",
+          "stock": "En Stock"
+        },
+        {
+          "id": "p8",
+          "nombre": "Motorola G55",
+          "descripcion": "256GB, 8GB Ram",
+          "precio": 800000,
+          "imagen": "assets/imagenes/motorola-g55-smartpones.png",
+          "stock": "En Stock"
+        },
+        {
+          "id": "p9",
+          "nombre": "Samsung Galaxy S24",
+          "descripcion": "Dual SIM, 128GB, 8GBRam",
+          "precio": 2179000,
+          "imagen": "assets/imagenes/SAMSUNG-GALAXY-S25-smartphone.png",
+          "stock": "En Stock"
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "nombre": "Audio",
+      "productos": [
+        {
+          "id": "p10",
+          "nombre": "Audífonos Sleve Evo",
+          "descripcion": "2da Gen",
+          "precio": 124000,
+          "imagen": "assets/imagenes/Audifonos-audio.png",
+          "stock": "En Stock"
+        },
+        {
+          "id": "p11",
+          "nombre": "Parlante JBL Flip 6",
+          "descripcion": "Aprueba de agua, 30W, Bluetooth",
+          "precio": 440000,
+          "imagen": "assets/imagenes/Jbl-Flip-6-audio.png",
+          "stock": "En Stock"
+        },
+        {
+          "id": "p12",
+          "nombre": "Micrófono K8",
+          "descripcion": "Micrófono Inalámbrico para celular tipo C, color negro",
+          "precio": 22000,
+          "imagen": "assets/imagenes/Microfono-k8-audio.png",
+          "stock": "En Stock"
+        }
+      ]
+    },
+    {
+      "id": "gaming",
+      "nombre": "Gaming",
+      "productos": [
+        {
+          "id": "p13",
+          "nombre": "Mouse Pad RGB Aoas",
+          "descripcion": "Mouse Pad Gamer RGB XI Aoas S4000 waterproof 80cm x 30cm",
+          "precio": 35000,
+          "imagen": "assets/imagenes/Mousepad-Rgb-gaming.png",
+          "stock": "En Stock"
+        },
+        {
+          "id": "p14",
+          "nombre": "Logitech G520 Hero",
+          "descripcion": "Mouse gamer RGB, programable, 25600dpi",
+          "precio": 211000,
+          "imagen": "assets/imagenes/logitech-G520-Gaming.png",
+          "stock": "En Stock"
+        },
+        {
+          "id": "p15",
+          "nombre": "Control Xbox edicion Deadpool",
+          "descripcion": "Control Xbox inalámbrico edicion especial de deadpool para Xbox One | S | X",
+          "precio": 500000,
+          "imagen": "assets/imagenes/Mando-deadpool-gaming.png",
+          "stock": "En Stock"
+        }
+      ]
+    }
+  ]
+}

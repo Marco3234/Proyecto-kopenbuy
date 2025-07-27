@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming - Kopen Buy</title>
+     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Mismos estilos y scripts -->
+    <style>
+        .category-hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/imagenes/gaming-banner.jpg');
+            /* Resto del estilo igual */
+        }
+        .gaming-badge {
+            background-color: #d62e2e;
+            color: white;
+        }
+    </style>
+</head>
+ <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <i class="bi bi-bag-check"></i> Kopen Buy
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <h6 class="dropdown-header">Categorías</h6>
+                                </li>
+                                <li><a class="dropdown-item" href="PaginaLaptops.html">
+                                        <i class="bi bi-laptop me-2"></i>Laptops & Computadoras
+                                    </a></li>
+                                <li><a class="dropdown-item" href="PaginaSmartphone.html">
+                                        <i class="bi bi-phone me-2"></i>Smartphones & Tablets
+                                    </a></li>
+                                <li><a class="dropdown-item" href="Audio.html">
+                                        <i class="bi bi-headphones me-2"></i>Audio & Auriculares
+                                    </a></li>
+                                <li><a class="dropdown-item" href="Gaming.html">
+                                        <i class="bi bi-controller me-2"></i>Gaming
+                                    </a></li>
+                                <li><a class="dropdown-item" href="#">
+                                        <i class="bi bi-cpu me-2"></i>Componentes PC
+                                    </a></li>
+                                <li><a class="dropdown-item" href="catalogo.html">
+                                        <i class="bi bi-hdd me-2"></i>Ver todo...
+                                    </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ofertas</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex me-2">
+                        <input class="form-control me-2" type="search" placeholder="Buscar productos...">
+                        <button class="btn btn-light" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </form>
+                    <button class="btn btn-outline-light me-2" data-bs-toggle="modal" data-bs-target="#login-modal">
+                        <i class="bi bi-person"></i> Iniciar Sesión
+                    </button>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#register-modal"
+                        style="background-color: var(--primary-color)">
+                        <i class="bi bi-pencil-square"></i> Registrarme
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+                                <h2 class="text-center mb-5">Productos de gaming</h2>
+
+
+<body>
+    <!-- Navbar similar pero con Gaming activo -->
+    
+    <main>
+
+        <!-- Productos -->
+        <section class="container mb-5">
+            <div class="row g-4">
+                <!-- Producto 1 -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card product-card h-100">
+                        <img src="assets/imagenes/Mousepad-Rgb-gaming.png" class="card-img-top" alt="Mouse Pad RGB">
+                        <div class="card-body">
+                            <h5 class="card-title">Mouse Pad RGB Aoas</h5>
+                            <p class="card-text">80x30cm, resistente al agua, iluminación RGB</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="badge gaming-badge">EN STOCK</span>
+                                <span class="fw-bold">$35.000</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <button class="btn btn-primary w-100">Ver Detalles</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 2 -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card product-card h-100">
+                        <img src="assets/imagenes/logitech-G520-Gaming.png" class="card-img-top" alt="Mouse Logitech">
+                        <div class="card-body">
+                            <h5 class="card-title">Logitech G520 Hero</h5>
+                            <p class="card-text">RGB programable, 25600dpi, 11 botones</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="badge gaming-badge">EN STOCK</span>
+                                <span class="fw-bold">$211.000</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <button class="btn btn-primary w-100">Ver Detalles</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 3 -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card product-card h-100">
+                        <img src="assets/imagenes/Mando-deadpool-gaming.png" class="card-img-top" alt="Control Xbox">
+                        <div class="card-body">
+                            <h5 class="card-title">Control Xbox Deadpool</h5>
+                            <p class="card-text">Edición especial, inalámbrico</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="badge gaming-badge">EN STOCK</span>
+                                <span class="fw-bold">$500.000</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <button class="btn btn-primary w-100">Ver Detalles</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Especificaciones Gaming -->
+        <section class="py-5 bg-dark text-white">
+            <div class="container">
+                <h2 class="text-center mb-5">Especificaciones para Gaming</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="text-center">
+                            <i class="bi bi-mouse fs-1 text-danger mb-3"></i>
+                            <h4>Periféricos</h4>
+                            <p>Mouse con alta DPI, teclados mecánicos y headsets con sonido surround.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="text-center">
+                            <i class="bi bi-display fs-1 text-danger mb-3"></i>
+                            <h4>Pantallas</h4>
+                            <p>Alta tasa de refresco (144Hz o más) y tiempo de respuesta rápido.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="text-center">
+                            <i class="bi bi-pc-display-horizontal fs-1 text-danger mb-3"></i>
+                            <h4>Equipos</h4>
+                            <p>Tarjetas gráficas dedicadas y procesadores de alto rendimiento.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
